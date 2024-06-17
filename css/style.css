@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font:15px/1.5 Arial, Helve tica, san serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    /* min-height: 100vh; */
+    box-sizing: border-box;
+}
+
+header nav{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+    /* margin: 40px 172.5px 2px ; */
+    background-color: white;
+    border-radius: 6px;
+    /* width: 1000px;  */
+    height:70px;
+    padding:10px;
+}
+header nav img{
+    width: 110px;
+    
+}
+header nav li{
+list-style: none;
+
+}
+header nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(7, 202, 7);
+
+}
+header nav select {
+    border: none;
+    text-transform: capitalize;
+}
+header nav .a{
+    background-color: rgb(7, 202, 7);
+    color: white;
+padding: 10px 15px;
+    text-align: center;
+    align-items:center;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+}
+header nav .p img{
+    width: 26px;
+
+}
+header nav .a{
+    color: white;
+}
+header nav .img1 img{
+    width: 26px;
+    color: white;
+    display:none;
+}
+    
+
+main{
+    
+    
+     text-align: center;
+    align-items: center;
+    /* margin:0px 172.5px; */
+    background-color: white;
+    border-radius: 6px;
+    /* width:1000px;  */
+    padding: 10px;
+    
+    
+}
+main .main1{
+    margin: 20px;
+}
+main .h1{
+    margin: 0px 250px;
+}
+main .p1{
+    margin: 0px 223.5px;
+}
+main .p2{
+    margin: 0px 125px;
+}
+
+main .demo{
+    display:flex ;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    /* margin: 20px 330px; */
+    justify-content: center;
+    
+}
+
+main .demo .demo1 img{
+    width: 26px;
+}
+main .demo a{
+    text-decoration: none;
+    color:white;
+    align-items: center;
+    text-align: center;
+}
+
+main .demo .signup  a{
+    background-color: white;
+    color:rgb(7, 202, 7) ;
+    border: rgb(7, 202, 7) 2px solid;
+    padding: 12.5px 15px;
+    border-radius: 10px;
+}
+main .demo .demo1{
+    background-color: rgb(7, 202, 7);
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+.demo1 a{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+main .main-img{
+    margin:10px ;
+}
+main .im2{
+    width: 700px;
+}
+main .img{
+    /* margin: 10px 120px; */
+    
+}
+
+main .img {
+    /* width:180px;
+    margin: 3px;  */
+    display:grid;
+    grid-template-columns:300px 300px 300px 300px;
+    width: 100%;
+    margin: 40px 80px;
+}
+main .img img{
+width: 180px;
+margin: 10px;
+
+}
+.valu{
+    background-color: black;
+    color: white;
+    /* margin:30px 0px ;
+    padding: 30px; */
+    width: 100%;
+    
+     
+
+}
+.valu h1{
+    text-transform: capitalize;
+}
+
+.why{
+    
+    padding: 10px;
+    text-align: center;
+
+    
+}
+.srd{
+    display: flex;
+    margin: 0px 35px;
+}
+.srd .p{
+text-transform: capitalize;
+font-size: large;
+}
+.secure, .reliable, .dedi{
+    margin: 0px 20px;
+    text-align: justify;
+    align-items: center;
+    gap: 15px;
+}
+.info{
+    margin: 40px 0 40px 0;
+}
+
+.info .p{
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: bolder;
+}
+.info .accurate{
+    margin: 0px 100px;
+}
+
+.pi{
+    display: flex;
+    margin: 50px 50px;
+    justify-content:center ;
+    
+    
+
+}
+.pi .paragraph{
+    text-align: justify;
+    justify-content:space-between;
+    display: flex;
+    flex-direction: column;
+    
+}
+.pi .person, .valuation, .fast{
+    text-align: justify;
+    margin: 0px 60px;
+    width: 300px;
+    
+}
+ .pi .image img{
+    width: 450px;
+    
+}
+/* main .a{
+     background-color: rgb(7, 202, 7);
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 5px 390px;
+
+
+} */
+main .lastdemo a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(7, 202, 7);
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    padding: 10px ;
+    border-radius: 10px;
+    gap: 5px;
+    margin: 10px 550px;
+    
+}
+main .lastdemo img{
+    width: 26px;
+}
+
