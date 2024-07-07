@@ -13,250 +13,288 @@ body{
 
 header nav{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    padding: 30px 0px;
     text-align: center;
     align-items: center;
-    /* margin: 40px 172.5px 2px ; */
-    background-color: white;
-    border-radius: 6px;
-    /* width: 1000px;  */
-    height:70px;
-    padding:10px;
+    position: relative;
+    margin-bottom: 5px;
 }
-header nav img{
-    width: 110px;
-    
-}
+
+
+
 header nav li{
-list-style: none;
-
-}
-header nav a{
     text-decoration: none;
-    text-transform: capitalize;
-    color: rgb(7, 202, 7);
-
-}
-header nav select {
-    border: none;
-    text-transform: capitalize;
-}
-header nav .a{
-    background-color: rgb(7, 202, 7);
-    color: white;
-padding: 10px 15px;
-    text-align: center;
-    align-items:center;
-    border-radius: 10px;
-    display: flex;
-    gap: 5px;
-}
-header nav .p img{
-    width: 26px;
-
-}
-header nav .a{
-    color: white;
-}
-header nav .img1 img{
-    width: 26px;
-    color: white;
-    display:none;
-}
+    list-style-type: none;
+    text-transform: uppercase;
     
+}
 
-main{
-    
-    margin: 5px 0;
-     text-align: center;
-    align-items: center;
-    /* margin:0px 172.5px; */
-    background-color: white;
+
+header nav ul a{
+    color: green;
+    text-decoration: none;
+
+}
+
+header nav ul a:hover{
+    color: white;
+    background-color: green;
     border-radius: 6px;
-    /* width:1000px;  */
-    padding: 10px;
-    
-    
-}
-main .main1{
-    margin: 20px;
-}
-main .h1{
-    margin: 0px 250px;
-}
-main .p1{
-    margin: 0px 223.5px;
-}
-main .p2{
-    margin: 0px 125px;
-}
-
-main .demo{
-    display:flex ;
-    gap: 20px;
-    text-align: center;
-    align-items: center;
-    /* margin: 20px 330px; */
-    justify-content: center;
+    padding: 5px;
     
 }
 
-main .demo .demo1 img{
-    width: 26px;
-}
-main .demo a{
-    text-decoration: none;
-    color:white;
-    align-items: center;
-    text-align: center;
-}
 
-main .demo .signup  a{
-    background-color: white;
-    color:rgb(7, 202, 7) ;
-    border: rgb(7, 202, 7) 2px solid;
-    padding: 12.5px 15px;
-    border-radius: 10px;
-}
-main .demo .demo1{
-    background-color: rgb(7, 202, 7);
+
+
+header nav .select{
     display: flex;
-    padding: 10px;
+    gap: 30px;
+    
+}
+
+header nav .select select{
+    text-transform: capitalize;
+    border: none;
+    
+}
+
+
+header nav .demo a{
     gap: 5px;
-    border-radius: 10px;
-    text-align: center;
+    text-transform: capitalize;
     align-items: center;
-}
-.demo1 a{
-    display: flex;
-    justify-content: center;
-    gap:10px;
-}
-
-main .main-img{
-    margin:10px ;
-}
-main .im2{
-    width: 700px;
-}
-main .img{
-    /* margin: 10px 120px; */
-    
-}
-
-main .img {
-    /* width:180px;
-    margin: 3px;  */
-    display:grid;
-    grid-template-columns:300px 300px 300px 300px;
-    width: 100%;
-    margin: 40px 80px;
-}
-main .img img{
-width: 180px;
-margin: 10px;
-
-}
-.valu{
-    background-color: black;
+    background-color: green;
+    padding: 5px;
     color: white;
-    margin:30px 0px ;
-    padding: 30px; 
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+}
+
+.menu_button{
+    padding: 5px;
+    display:none ;
+}
+
+.menu_button img{
+    display:none;
+    
+}
+
+.sidebar{
+   position: fixed; 
+   top: 0;
+   right: 0;
+   height: 100vh;
+   width: 250px;
+   z-index: 999;
+   background-color: rgba(255, 255, 255, 0);
+   backdrop-filter: blur(10px);
+   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+   display:none ;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   text-align: center;
+   
+}
+
+.sidebar li{
     width: 100%;
-    
-     
-
-}
-.valu h1{
-    text-transform: capitalize;
 }
 
-.why{
-    
-    padding: 10px;
-    text-align: center;
-
-    
-}
-.srd{
-    display: flex;
-    margin: 0px 35px;
-}
-.srd .p{
-text-transform: capitalize;
-font-size: large;
-}
-.secure, .reliable, .dedi{
-    margin: 0px 20px;
-    text-align: justify;
-    align-items: center;
-    gap: 15px;
-}
-.info{
-    margin: 40px 0 40px 0;
+.sidebar a{
+    width: 100%;
 }
 
-.info .p{
-    text-transform: capitalize;
-    font-size: larger;
-    font-weight: bolder;
-}
-.info .accurate{
-    margin: 0px 100px;
-}
-
-.pi{
-    display: flex;
-    margin: 50px 50px;
-    justify-content:center ;
-    
-    
-
-}
-.pi .paragraph{
-    text-align: justify;
-    justify-content:space-between;
+.sidebar .select{
     display: flex;
     flex-direction: column;
-    
 }
-.pi .person, .valuation, .fast{
-    text-align: justify;
-    margin: 0px 60px;
-    width: 300px;
-    
-}
- .pi .image img{
-    width: 400px;
-    
-}
-/* main .a{
-     background-color: rgb(7, 202, 7);
-    display: flex;
-    padding: 10px;
-    gap: 5px;
-    border-radius: 10px;
+
+main{
+    width: 100%;
+    background-color: white;
+    padding: 30px 0px;
     text-align: center;
     align-items: center;
-    margin: 5px 390px;
+    margin-bottom: 5px; 
+}
+
+.main-intro{
+    padding: 20px;
+}
 
 
-} */
-main .lastdemo a{
-    text-decoration: none;
-    color: white;
-    background-color: rgb(7, 202, 7);
-    align-items: center;
-    text-align: justify;
+.main-intro h1{
+    text-transform: capitalize;
+}
+
+.main-intro p{
+    padding:0px 0px;
+}
+
+
+.mainbutton{
     display: flex;
     justify-content: center;
-    padding: 10px ;
-    border-radius: 10px;
-    gap: 5px;
-    margin: 10px 550px;
-    
-}
-main .lastdemo img{
-    width: 26px;
+    gap: 20px;
+    padding: 10px 10px 40px;
 }
 
+
+
+.mainbutton .maindemo a{
+    gap: 5px;
+    text-transform: capitalize;
+    align-items: center;
+    background-color: green;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+    
+}
+
+
+.mainsign a{
+    gap: 5px;
+    text-transform: capitalize;
+    align-items: center;
+    border:2px solid green;
+    padding: 5px;
+    color: green;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+}
+
+.main-intro2{
+    padding: 20px 20px 40px;
+}
+
+
+.main-intro2 h2{
+    text-transform: capitalize;
+}
+
+.main-intro2 p{
+    padding:0px 0px;
+}
+
+
+main .main-gallery{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    padding:30px ;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+main .main-gallery img{
+     width: 180px;
+     padding: 10px;
+}
+
+main .info{
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+    
+}
+
+
+
+
+main .info .quality{
+    display:flex;
+    padding: 50px ;
+    gap: 40px;
+    
+}
+
+
+ .secure, .reliable, .dedicated{
+    text-align: justify;
+
+}
+
+
+main .info2{
+    padding: 50px;
+    
+}
+
+.info2 h3{
+    text-transform: capitalize;
+}
+
+.info2 .accurate{
+    padding: 50px 0px;
+}
+
+/* .info2 .accurate p{
+    padding-left: 0 0
+} */
+
+
+
+
+
+
+
+.info2 .primg{
+    display: flex;
+    padding: 60px;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.info2 .pvf{
+    display:grid;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lastdemo{
+    align-items: center;
+    padding: 30px ;
+    
+    
+}
+
+.lastdemo a{
+    gap: 5px;
+    text-transform: capitalize;
+    align-items: center;
+     text-align: center;
+    justify-content: center;
+    background-color: green;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+    width:fit-content;
+    margin: auto;
+    
+
+    
+}  
+    
+
+
+
+.manimg img{
+    width: 400px;
+}

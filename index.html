@@ -4,176 +4,286 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal-task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/query.css">
+    
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <nav class="sidebar" id="">
+         <div class="logo">
+           <!-- <a href="#" onclick="hideSidebar()"  ><img src="./img/x.png" alt="" width="10px"  ></a> -->
 
+         </div>
 
-   
-           <nav class="" id="topNav" >
-                <div class="img" id="">
-                  <img class="im" src="./img/logo.png" alt="">  
-                </div>
-                <div class="nav" id="">
-                    <li class=""><a class="current" href="index.html">home</a></li>
-                </div>
-               
-                
+        <!-- <ul>
+            <li><a href="index.html">home</a></li>
+        </ul> -->
+
+        <div class="select">
+            <a href="#">
                 <select name="" id="" class="">
                     <option value="menu-item">solutions</option>
                     <option value="menu-item">strategy</option>
                     <option value="menu-item">strenth</option>
                 </select> 
-                <select name="" id="" class="">
+            </a>
+            
+            <a href="#">
+            <select name="" id="" class="">
+                <option value="menu-item">your work</option>
+                <option value="menu-item">skills</option>
+                <option value="menu-item">philosphy</option>
+            </select>
+            </a>
+
+            <a href="#">
+            <select name="" id="" class="">
+                <option value="menu-item">company</option>
+                <option value="menu-item">branches</option>
+                <option value="menu-item">address</option>
+            </select>
+            </a>
+
+        </div>
+
+
+        <div class="demo">
+
+        <a href="#" class="">request a demo <img src="./img/check.png" alt="" width="26px"></a>
+        </div>
+
+
+
+         <div class="menu_button" >
+           <a href=""onclick="hideSidebar()" > <img src="./img/can.png" alt="" width="30px"  ></a>
+        </div>  
+    </nav>
+
+
+
+
+
+
+        <nav class="nav" id="">
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+
+            </div>
+
+            <ul>
+                <li class="hideOnMobile"><a href="index.html">home</a></li>
+            </ul>
+
+            <div class="select">
+                <a href="#">
+                    <select name="" id="" class="hideOnMobile">
+                        <option value="menu-item">solutions</option>
+                        <option value="menu-item">strategy</option>
+                        <option value="menu-item">strenth</option>
+                    </select> 
+                </a>
+                
+                <a href="#">
+                <select name="" id="" class="hideOnMobile">
                     <option value="menu-item">your work</option>
                     <option value="menu-item">skills</option>
                     <option value="menu-item">philosphy</option>
                 </select>
-                <select name="" id="" class="">
+                </a>
+
+                <a href="#">
+                <select name="" id="" class="hideOnMobile">
                     <option value="menu-item">company</option>
                     <option value="menu-item">branches</option>
                     <option value="menu-item">address</option>
                 </select>
-                <div class="p">
-                    <a class="a" href="index.html">Request a Demo<img src="./img/check.png" alt=""> </a>
-                </div>
-                <div class="img1">
-                    <img src="./img/menu.png" alt="" onclick="ToggleMenu()">
-                </div>
-            </nav>
-        </header>
-    </div>
+                </a>
 
-
-
-    <!---main section begings-->
-
-    
-        <main>
-            <div class="main1">
-            <h1 class="h1">the world's leading business valuation software</h1>
-
-            <p class="p1">valutico provides the financial service industry
-                and valuation expert with data-driven
-                 toools to perform
-                accurate company valuation faster and 
-                more accurate than ever before
-            </p>
             </div>
+
+
             <div class="demo">
-                <div class="demo1">
-                <a class="" href="index.html">Request a Demo <img src="./img/check.png" alt=""> </a>
-                
-                </div>
-                <div class="signup">
-                <a class="" href="form.html">Sign Up/Login</a>
-                </div>
-            </div>
-            <div class="main-img">
-            <img class="im2" src="./img/valu.jpg" alt="">
-            </div>
-            
 
-            <div class="trusted">
-            <h2>trusted by hundreds of financial firms in 75 countries</h2>
-            <p class="p2">Our teams of more 50 employees is globally distributed
-                and serves boyh both national and international client
-                in over 75 countries
+            <a href="#" class="hideOnMobile">request a demo <img src="./img/check.png" alt="" width="26px"></a>
+            </div>
+
+
+
+            <div class="menu_button">
+               <a href="#" onclick="showSidebar()" ><img src="./img/menu.png" alt="" width="30px"  ></a>
+            </div>
+        </nav>
+
+
+
+
+
+        
+
+        
+    </header>
+
+    <main>
+        <div class="main-intro">
+            <h1>the world's leading business valuation software</h1>
+            <p>valuyico provides the financial services industry and valuation experts with 
+                data-driven tools to perform accurate company valuation faster and more accurately
+                than ever before.
             </p>
+        </div>
+
+        <div class="mainbutton">
+            <div class="maindemo">
+                <a href="#">Request a Demo <img src="./img/check.png" alt="" width="26px"></a>
             </div>
-            <div class="img">
-                <img class="m" src="./img/image 5.jpg" alt="" >
-                <img class="m" src="./img/oak.jpg" alt="">
-                <img class="m" src="./img/russ.jpg" alt="">
-                <img class="m" src="./img/cro.jpg" alt="">
-                <img class="m" src="./img/frame 12.png" alt="">
-                <img class="m" src="./img/pra.jpg" alt="">
-                <img class="m" src="./img/Frame 14.jpg" alt="">
-                <img class="" src="./img/sta.jpg" alt="">
-                <img class="m" src="./img/pan.jpg" alt="">
-                <img class="m" src="./img/glo.jpg" alt="">
-                <img class="m" src="./img/Frame 14.png" alt="">
-                <img class="m" src="./img/rod.jpg" alt="">
+            <div class="mainsign">
+                <a href="./form.html">Sign up/Login</a>
             </div>
-            <div class="valu">
-                <div class="why">
-                    <h1>why valutico?</h1>
-                    <p>an award-winning fintech providing a range of company valuation
-                        solutions, valutico provides the financial services industry and 
-                        valuation experts with data-driven tools.
+        </div>
+
+        <div class="mainimg">
+            <img src="./img/valu.jpg" alt="">
+        </div>
+
+        <div class="main-intro2">
+            <h2>trusted by hundreds of financial firms
+                in 75 countries
+            </h2>
+            <p>Our team of more than 50 employees is
+                globally distributed and serves both national
+                and internationer clients in over 75 countries
+            </p>
+        </div>
+
+        <div class="main-gallery">
+            <img src="./img/all.jpg" alt="">
+            <img src="./img/oak.jpg" alt="">
+            <img src="./img/russ.jpg" alt="">
+            <img src="./img/cro.jpg" alt="">
+            <img src="./img/bcr.png" alt="">
+            <img src="./img/pra.jpg" alt="">
+            <img src="./img/bak.jpg" alt="">
+            <img src="./img/sta.jpg" alt="">
+            <img src="./img/pan.jpg" alt="">
+            <img src="./img/glo.jpg" alt="">
+            <img src="./img/cdi.png" alt="">
+            <img src="./img/rod.jpg" alt="">
+        </div>
+
+        <div class="info">
+            <div class="info-intro">
+                <h2>why valutico?</h2>
+
+                <p>An award-winning fintech providing a range
+                    of company valuation solutions, valutico provides
+                    the financial services industry and valuation experts 
+                     with data-driven tool
+                </p>
+            </div>
+
+
+
+
+            <div class="quality">
+
+                   <div class="secure">
+                    <h3>Secure</h3>
+                    <p>private by difault, creating a safe place
+                        around your project and you data
                     </p>
-                </div>
-                <div class="srd">
-                    <div class="secure">
-                        <p class="p">secure</p>
-                        <p>private by default, creating a safe space around
-                            your project and your data.
-                        </p>
-                    </div>
-                    <div class="reliable">
-                        <p class="p">reliable</p>
-                        <p>created by valuation experts for valuation professionals</p>
-                    </div>
-                    <div class="dedi">
-                        <p class="p">dedicated to your success</p>
-                        <p>24/7 support and multi-language capabilities to
-                            to support your needs.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="info">
-                <div class="accurate">
-                    <p class="p">accurate valuation in minutes</p>
-                    <p>find the company data you need in seconds, with 3TB of global financial data featuring
-                        almost 1 million transactions and over 50,000 comparable peers.
-                    </p>
-                </div>
-
-                <div class="pi">
-                   <div class="paragraph">
-
-                    <div class="person">
-                        <p class="p">personalise your report</p>
-                        <p>Save hours transfering resuilt from spreadsheetto slides, by exporting 
-                            result to powerpoint and word template effortlessly.
-                        </p>
-                    </div>
-
-                    <div class="valuation">
-                        <p class="p">28 valuation method option</p>
-                        <p>From loss-making companies enterprise, and from startups to SME's, 
-                            value businesses of any type using multiple valuation methods.
-                        </p>
-                    </div>
-                    <div class="fast">
-                        <p class="p">fast acess to premium data</p>
-                        <p>Access the most highly-trusted global database of company financial
-                            data to locate the figure you need.
-                        </p>
-                    </div>
-                
                    </div>
 
-                   <div class="image">
-                    <img src="./img/man.jpg" alt="">
-                   
 
-                </div >
+                   <div class="reliable">
+                    <h3>Reliable</h3>
+                    <p>created by valuation experts for valuation professionals.</p>
+                   </div>
 
-                
+
+                   <div class="dedicated">
+                    <h3>Dedicated to your success</h3>
+                    <p>24/7 support and multi-language capabilities to
+                        support your needs.
+                    </p>
+                   </div>
+
+
             </div>
 
-                <div class="lastdemo">
-                    <a class="a" href="index.html">Request a Demo  <img src="./img/check.png" alt=""></a>
-                   
 
+
+
+
+        </div>
+
+
+
+        <div class="info2">
+
+            <div class="accurate">
+                <h3>accurate valuation in minutes</h3>
+                <p>Find the company data you need in seconds, with 3TB 
+                    of global financial data featuring almost 1 million
+                    transactions and over 50,000 thousand comparable peers
+                </p>
+            </div>
+
+
+            <div class="primg">
+
+            <div class="pvf">
+                
+                <div class="person">
+                    <h3>personalise your reports</h3>
+                    <p>Save hours transferring results from spreadsheet to slides,
+                       by exporting your results to power point and word template
+                       effortlessly 
+                    </p>
                 </div>
-        </main>
-        <script src="./js/main.js"></script>
+
+
+
+
+                <div class="valuation">
+                    <h3>28 valuation method options</h3>
+                    <p>From loss-making companies to mature enterprises and from start up to
+                        SME's value businesses of any type using multiple valuation methods
+                    </p>
+                </div>
+
+
+
+                <div class="fast">
+                    <h3>fast access to premium data</h3>
+                    <p>Access the most highly-trusted global database of company 
+                        financial data to locate the figure you need
+                    </p>
+                </div>
+                </div>
+
+
+                <div class="manimg">
+                    <img src="./img/man.jpg" alt="">
+                </div>
+            </div>
+
+
+            <div class="lastdemo">
+                <a href="#" class="">request a demo <img src="./img/check.png" alt="" width="26px"></a>
+            </div>
+
+        </div>
+    </main>
     
+    
+    
+        
+
+
+
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

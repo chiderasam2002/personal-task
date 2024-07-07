@@ -1,148 +1,79 @@
-@media (max-width:1024px ) and (min-width:768px){
-    
-    
-    header nav .a{
-        display:none ;
-    }
-    
-    main{
-        margin: 5px 0;
-    }
-    
-    main .main1{
-     
-        /* margin: 20px; */
-        width: 100%;
-    }
+@media screen and (max-width:1024px){
+ .hideOnMobile, .demo{
+    display: none;
+ }
 
+.logo img{
+    padding-left: 0;
+    width:100px ;
+}
 
-    main .h1{
-        /* margin: 0px 250px; */
-        
-        align-items: center;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        padding: 0 40px 0 40px;
-        margin: 0;
-    }
+.menu_button{
+    padding: 5px;
+    display:block ;
+    /* transition: 4.2s; */
+}
 
-
-    main .p1{
-
-       padding: 0 30px 0 30px ;
-       margin:0 ;
-       
-    }
-
-
-    main .p2{
-        margin: 0px 125px;
-    
+.menu_button img{
+    display:block;
     
    
-    }
-    main .demo .demo1{
-        width:150px;
-        
-    }
+}
 
-  main .demo{ 
-        margin-top: 50px;
+main .mainimg img{
+    width: 100%;
+}
+
+main .main-gallery{
+     grid-template-columns: 200px 200px 200px ;
+}
+
+.info2 .primg{
+    display: flex;
+    padding: 0px;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.manimg img{
+    width: 300px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    main .main-gallery{
+       grid-template-columns: 200px 200px ;
     } 
-     
-    main .im2{
-        margin-top: 50px;
-    }
-
-
-    .trusted{
-        margin: 50px 0 50px 0;
+    
+    
+    
+    main .info .quality{
+        display:grid;
     }
     
-    main .img{
-        width: 100%;
+    
+    .info2 .primg{
         display: grid;
-        grid-template-columns: 250px 250px 250px;
-        margin: 10px 20px;
-        
-    }
-    main .img img{
-        width: 180px;
-        margin: 10px;
     }
 
-    .valu{
-        width: 100%;
-        padding: 30px 0px;
-    }
-    
-    .secure, .reliable, .dedi{
-        margin: 50px 20px;
-        text-align: justify;
-        align-items: center;
-        gap: 15px;
-    }
-
-
-
-    .srd{
-        display: block;
-        margin:40px 0px ;
-    }
-    
     
 
-    .pi{
-        width: 100%;
-        margin: 50px 30px;
-    }
 
-    .pi .image img{
-        width:300px;
-        margin:0px 150px 0px 0px;
-        height: 500px;
-    
-    }main .lastdemo a{
-        
-        
-        
-        align-items: center;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        padding: 10px ;
-        border-radius: 10px;
-        gap: 5px;
-        margin: 10px 260px;
-        
-    }
-    main .lastdemo img{
-        width: 26px;
-    }
+
 
 
 
 }
-
-@media (max-width:844px ) and (max-width:390px){
-
-    header .nav, select{
-        
-        display:none;
-    }
-
-    .img1 img{
-        display: flex;
-    }
-
-
-    header nav .a{
-        display: none;
-    }
-}
-
-
-
-
 
