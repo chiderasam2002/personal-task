@@ -19,7 +19,7 @@ const setError = (element, message) => {
     inputControl.classList.remove('success')
 }
 
-const setSuccess = element => {
+const setSuccess =(element, message) => {
     const inputControl = element.parentElement;
     const errorDisplay = inputControl.querySelector('.error');
 
@@ -55,18 +55,34 @@ const validateInputs = () => {
 
     if(passwordValue === '') {
         setError(password, 'Password is required');
-    } else if (passwordValue.length < 8 ) {
-        setError(password, 'Password must be at least 8 character.')
-    } else {
+    } 
+    else if (passwordValue.length < 8 ) {
+        setError(password, 'Password must be at least 8 characters.')
+    } 
+    else {
         setSuccess(password);
     }
 
     if(password2Value === '') {
         setError(password2, 'Please confirm your password');
-    } else if (password2Value !== passwordValue) {
+    } 
+    else if (password2Value !== passwordValue) {
         setError(password2, "Passwords doesn't match");
-    } else {
+    }
+     else {
         setSuccess(password2);
     }
 
 };
+
+
+
+const allInputs = [username, email, password, password2]
+allInputs.forEach('input', () => {
+    input.addEventListener('input', () => {
+        if(input.parentElement.classList.contains|('incorrect')){
+            input.parentElement.classList.remove('incorrect')
+            errorDisplay.innerText = ''
+        }
+    } )
+})
